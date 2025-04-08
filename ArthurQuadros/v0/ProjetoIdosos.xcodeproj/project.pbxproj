@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034BE1502DA08FD400D80E79 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BE14F2DA08FD400D80E79 /* CameraManager.swift */; };
+		034BE1562DA092AD00D80E79 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BE1552DA092AD00D80E79 /* CameraViewModel.swift */; };
+		035A6B452DA495DD00D05116 /* OCRResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A6B442DA495DD00D05116 /* OCRResultView.swift */; };
+		035A6B472DA4A39D00D05116 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035A6B462DA4A39D00D05116 /* ViewModel.swift */; };
+		60E3AFF22D9E06A800815C4B /* ProjetoIdososApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3AFF12D9E06A800815C4B /* ProjetoIdososApp.swift */; };
+		60E3AFF42D9E06A800815C4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3AFF32D9E06A800815C4B /* ContentView.swift */; };
+		60E3AFF62D9E06A900815C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E3AFF52D9E06A900815C4B /* Assets.xcassets */; };
+		60E3AFF92D9E06A900815C4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E3AFF82D9E06A900815C4B /* Preview Assets.xcassets */; };
+		60E3B0022D9E089200815C4B /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3B0012D9E089200815C4B /* ReminderView.swift */; };
+		60E3B0042D9E08D000815C4B /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3B0032D9E08D000815C4B /* NotesView.swift */; };
+		60E3B0062D9E092A00815C4B /* HeartBeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3B0052D9E092A00815C4B /* HeartBeatsView.swift */; };
+		60E3B0082D9E0A3D00815C4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3B0072D9E0A3D00815C4B /* HomeView.swift */; };
+		60E3B00A2D9E0C5500815C4B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3B0092D9E0C5500815C4B /* Models.swift */; };
+		60E3B00C2D9E10FB00815C4B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E3B00B2D9E10FB00815C4B /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034BE14F2DA08FD400D80E79 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		034BE1552DA092AD00D80E79 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		034BE1572DA0A28800D80E79 /* ProjetoIdosos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProjetoIdosos.entitlements; sourceTree = "<group>"; };
+		034BE1582DA0A5DF00D80E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		035A6B442DA495DD00D05116 /* OCRResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRResultView.swift; sourceTree = "<group>"; };
+		035A6B462DA4A39D00D05116 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		60E3AFEE2D9E06A800815C4B /* ProjetoIdosos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoIdosos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E3AFF12D9E06A800815C4B /* ProjetoIdososApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoIdososApp.swift; sourceTree = "<group>"; };
+		60E3AFF32D9E06A800815C4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60E3AFF52D9E06A900815C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60E3AFF82D9E06A900815C4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60E3B0012D9E089200815C4B /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		60E3B0032D9E08D000815C4B /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		60E3B0052D9E092A00815C4B /* HeartBeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBeatsView.swift; sourceTree = "<group>"; };
+		60E3B0072D9E0A3D00815C4B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		60E3B0092D9E0C5500815C4B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		60E3B00B2D9E10FB00815C4B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E3AFEB2D9E06A800815C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60E3AFE52D9E06A700815C4B = {
+			isa = PBXGroup;
+			children = (
+				035A6B462DA4A39D00D05116 /* ViewModel.swift */,
+				60E3AFF02D9E06A800815C4B /* ProjetoIdosos */,
+				60E3AFEF2D9E06A800815C4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60E3AFEF2D9E06A800815C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E3AFEE2D9E06A800815C4B /* ProjetoIdosos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E3AFF02D9E06A800815C4B /* ProjetoIdosos */ = {
+			isa = PBXGroup;
+			children = (
+				035A6B442DA495DD00D05116 /* OCRResultView.swift */,
+				034BE1582DA0A5DF00D80E79 /* Info.plist */,
+				034BE1572DA0A28800D80E79 /* ProjetoIdosos.entitlements */,
+				60E3B00B2D9E10FB00815C4B /* CameraView.swift */,
+				60E3B0092D9E0C5500815C4B /* Models.swift */,
+				60E3B0072D9E0A3D00815C4B /* HomeView.swift */,
+				60E3B0052D9E092A00815C4B /* HeartBeatsView.swift */,
+				034BE1552DA092AD00D80E79 /* CameraViewModel.swift */,
+				034BE14F2DA08FD400D80E79 /* CameraManager.swift */,
+				60E3B0032D9E08D000815C4B /* NotesView.swift */,
+				60E3B0012D9E089200815C4B /* ReminderView.swift */,
+				60E3AFF12D9E06A800815C4B /* ProjetoIdososApp.swift */,
+				60E3AFF32D9E06A800815C4B /* ContentView.swift */,
+				60E3AFF52D9E06A900815C4B /* Assets.xcassets */,
+				60E3AFF72D9E06A900815C4B /* Preview Content */,
+			);
+			path = ProjetoIdosos;
+			sourceTree = "<group>";
+		};
+		60E3AFF72D9E06A900815C4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60E3AFF82D9E06A900815C4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E3AFED2D9E06A800815C4B /* ProjetoIdosos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E3AFFC2D9E06A900815C4B /* Build configuration list for PBXNativeTarget "ProjetoIdosos" */;
+			buildPhases = (
+				60E3AFEA2D9E06A800815C4B /* Sources */,
+				60E3AFEB2D9E06A800815C4B /* Frameworks */,
+				60E3AFEC2D9E06A800815C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjetoIdosos;
+			productName = ProjetoIdosos;
+			productReference = 60E3AFEE2D9E06A800815C4B /* ProjetoIdosos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E3AFE62D9E06A700815C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					60E3AFED2D9E06A800815C4B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 60E3AFE92D9E06A700815C4B /* Build configuration list for PBXProject "ProjetoIdosos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60E3AFE52D9E06A700815C4B;
+			productRefGroup = 60E3AFEF2D9E06A800815C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E3AFED2D9E06A800815C4B /* ProjetoIdosos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E3AFEC2D9E06A800815C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E3AFF92D9E06A900815C4B /* Preview Assets.xcassets in Resources */,
+				60E3AFF62D9E06A900815C4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E3AFEA2D9E06A800815C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E3B0062D9E092A00815C4B /* HeartBeatsView.swift in Sources */,
+				60E3B0082D9E0A3D00815C4B /* HomeView.swift in Sources */,
+				60E3B00A2D9E0C5500815C4B /* Models.swift in Sources */,
+				60E3B0042D9E08D000815C4B /* NotesView.swift in Sources */,
+				034BE1562DA092AD00D80E79 /* CameraViewModel.swift in Sources */,
+				60E3AFF42D9E06A800815C4B /* ContentView.swift in Sources */,
+				60E3AFF22D9E06A800815C4B /* ProjetoIdososApp.swift in Sources */,
+				60E3B0022D9E089200815C4B /* ReminderView.swift in Sources */,
+				035A6B452DA495DD00D05116 /* OCRResultView.swift in Sources */,
+				034BE1502DA08FD400D80E79 /* CameraManager.swift in Sources */,
+				035A6B472DA4A39D00D05116 /* ViewModel.swift in Sources */,
+				60E3B00C2D9E10FB00815C4B /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60E3AFFA2D9E06A900815C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60E3AFFB2D9E06A900815C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60E3AFFD2D9E06A900815C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProjetoIdosos/ProjetoIdosos.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjetoIdosos/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjetoIdosos/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Projeto Idosos";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses the camera for OCR";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app access images in the library for applying the OCR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.quadros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60E3AFFE2D9E06A900815C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ProjetoIdosos/ProjetoIdosos.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjetoIdosos/Preview Content\"";
+				DEVELOPMENT_TEAM = 42VNG6NHT9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProjetoIdosos/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Projeto Idosos";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app uses the camera for OCR";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app access images in the library for applying the OCR";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arthur.quadros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E3AFE92D9E06A700815C4B /* Build configuration list for PBXProject "ProjetoIdosos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E3AFFA2D9E06A900815C4B /* Debug */,
+				60E3AFFB2D9E06A900815C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E3AFFC2D9E06A900815C4B /* Build configuration list for PBXNativeTarget "ProjetoIdosos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E3AFFD2D9E06A900815C4B /* Debug */,
+				60E3AFFE2D9E06A900815C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E3AFE62D9E06A700815C4B /* Project object */;
+}
